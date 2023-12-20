@@ -13,7 +13,6 @@ terraform {
 
   backend "remote" {
     organization = "ManhDemo"
-    # add comment
 
     workspaces {
       name = "tf-demo-github-action"

@@ -15,7 +15,7 @@ terraform {
     organization = "ManhDemo"
 
     workspaces {
-      name =  "tf-demo-github-action"
+      name = "tf-demo-github-action"
     }
   }
 }
